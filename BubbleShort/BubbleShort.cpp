@@ -48,7 +48,7 @@ void bubbleSortArray() { //prosedur untuk mengurutkan dengan metode bubble sort
 
 		}
 		cout << endl;
-	} while (pass <= n - 1) //step 5
+	} while (pass <= n - 1); //step 5
 
 }
 
@@ -70,6 +70,17 @@ void display() {
 	cout << "Jumlah pass = " << n - 1 << endl; // menampilkan jumlah dari pass
 	cout << endl;
 	cout << endl;
+
 }
 
+int main() {
+
+	input();
+
+	bubbleSortArray();
+	display();
+
+	system("pause");
+	return 0;
+}
 
